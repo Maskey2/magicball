@@ -59,7 +59,7 @@ class MagicEightBall extends React.Component {
         return (
             <div>
                 <img src="https://i.ya-webdesign.com/images/magic-8-ball-png-4.png" alt=""
-                    style={{ width: '500px', height: 'auto' }} />
+                    style={{ width: '360px', height: 'auto' }} />
 
                 <form noValidate autoComplete="off" >
                     <TextField id="outlined-basic" label="Ask a Question" variant="outlined"
@@ -68,12 +68,12 @@ class MagicEightBall extends React.Component {
                         style={{
                             backgroundColor: '#e4e4e4',
                             color: 'purple',
-                            fontFamily: 'Shadows Into Light Two', width: '75%'
+                            fontFamily: 'Shadows Into Light Two', width: '65%'
                         }} />
                 </form>
                 <br />
                 <Button variant="contained" color="primary" size='large'
-                    style={{ fontFamily: 'Shadows Into Light Two', fontSize: '25px', fontWeight: 'bold' }}
+                    style={{ fontFamily: 'Shadows Into Light Two', fontSize: '20px', fontWeight: 'bold' }}
                     onClick={this.ask}>
                     Ask the Magic Eight Ball!
                     </Button><br />
